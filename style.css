@@ -5,5 +5,10 @@
         flex-direction: row;
         justify-content: center;
     }
+    #hero-section{
+        background-image: cover;
+        width: 50vw;
+        height: 50vh;
+    }
 
 }
