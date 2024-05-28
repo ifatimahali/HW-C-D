@@ -1,7 +1,12 @@
 function toggleContent() {
   let DogContent = document.querySelector('h1').textContent.includes('Dog');
-  
+  let logo = document.querySelector('#logo')
   let catContent = document.getElementById('hero-section');
+  if (logo) {
+    logo.style.backgroundImage = "url('mobile-hero-2.jpg')";
+  } else {
+    logo.style.backgroundImage = "url('mobile-hero-1.jpg')";
+  }
     if (DogContent) {
       catContent.style.backgroundImage = "url('pexels-sam-lion-6001432.jpg')";
       catContent.querySelector('h1').textContent = "We're the Cat People";
