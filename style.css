@@ -1,14 +1,14 @@
 @media only screen and (min-width: 600px) {
-
     #rover{
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: center;
     }
     #hero-section{
         background-image: cover;
         width: 50vw;
-        height: 50vh;
+        height: 80vh;
     }
 
 }
